@@ -1,10 +1,10 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-# Apni details yahan dalein
-api_id = 12345678      # Apni Telegram API ID dalein
-api_hash = "YOUR_API_HASH"
-bot_token = "8722788286:AAGoe51YgEuRwOcMJeul75xHWTs_tLm7i8s"
+# Yahan apni asli details dalein jo kaam kar rahi hain
+api_id = 39116847      
+api_hash = "f06f5fa167d79eb30456b402f10cd12c"
+bot_token = "8722788286:AAGoe51YgEuRWoCmJeuI75xHWTs_tLm7i8s"
 
 app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
@@ -16,3 +16,4 @@ async def delete_service_messages(client, message: Message):
         print(e)
 
 app.run()
+
