@@ -1,7 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 
-# Direct credentials hardcoded taaki variable ka koi chakkar na rahe
 api_id = 39116847
 api_hash = "f06f5fa167d79eb30456b402f10cd12c"
 bot_token = "8722788286:AAGoe51YgEuRWoCmJeuI75xHWTs_tLm7i8s"
