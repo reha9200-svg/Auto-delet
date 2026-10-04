@@ -1,6 +1,6 @@
 import telebot
 
-TOKEN = "8722788286:AAGoe51YgEuRWoCmJeuI75xHWTs_tLm7i8s"
+TOKEN = "8722788286:AAE6sl19nX7ws105CEqflp3W18y8upeTHxs"
 bot = telebot.TeleBot(TOKEN)
 
 @bot.message_handler(content_types=['new_chat_members', 'left_chat_member', 'group_chat_created'])
