@@ -1,5 +1,10 @@
+import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
+
+# Agar pehle se koi session file bani hai toh use saaf karne ke dla
+if os.path.exists("tetrisalsi_bot.session"):
+    os.remove("tetrisalsi_bot.session")
 
 api_id = 39116847
 api_hash = "f06f5fa167d79eb30456b402f10cd12c"
